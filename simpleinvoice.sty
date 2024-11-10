@@ -10,6 +10,7 @@
 \def \INV@lang {eng}
 
 % Language options
+\DeclareOption{japanese}{\def \INV@lang  {jpn}}
 \DeclareOption{american}{\def \INV@lang  {eng}}
 \DeclareOption{english}{\def \INV@lang   {eng}}
 \DeclareOption{UKenglish}{\def \INV@lang {eng}}
@@ -21,6 +22,23 @@
 \ProcessOptions
 
 % Translations
+\def \INV@text@invoice@jpn {請求書}
+\def \INV@text@ourref@jpn {請求元参照番号}
+\def \INV@text@yourref@jpn {請求先参照番号}
+\def \INV@text@invnum@jpn {請求書番号}
+\def \INV@text@invdate@jpn {発行日}
+\def \INV@text@deadline@jpn {支払い期限}
+\def \INV@text@description@jpn {項目}
+\def \INV@text@itemprice@jpn {単価}
+\def \INV@text@vat@jpn {}
+\def \INV@text@itemtotal@jpn {合計金額}
+\def \INV@text@subtotal@jpn {小計}
+\def \INV@text@total@jpn {総額}
+\def \INV@text@paymentinfo@jpn {支払い情報}
+\def \INV@text@totallong@jpn {合計}
+\def \INV@text@accountnum@jpn {口座番号}
+\def \INV@text@warning@jpn {期限を過ぎての支払いには、追加利息と手数料がかかる場合があります。}
+
 \def \INV@text@invoice@eng {Invoice}
 \def \INV@text@ourref@eng {Our ref}
 \def \INV@text@yourref@eng {Your ref}
